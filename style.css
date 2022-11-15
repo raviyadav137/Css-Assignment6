@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image/WhatsApp\ Image\ 2022-11-09\ at\ 19.30.24.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding-right: 8%;
+    padding-left: 4%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+  }
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    
+}
+.img1{
+    width:40px;
+    height:40px;
+    position: relative;
+    top:10px;
+    cursor: pointer;
+}
+.img2{
+    width: 32px;;
+    height:32px;
+    position: relative;
+    top:10px;
+    left:760px;
+    cursor: pointer;
+}
+.a1{
+    color: white;
+    text-decoration: none;
+    margin-left: 19px;
+    padding-left: 23px;
+    display: inline-block;
+    position: relative;
+    left: 721px;
+}
+.play {
+    display: flex;
+    height: 88%;
+    align-items: center;
+  }
+  .box {
+    flex-basis: 50%;
+    
+  }
+  h1 {
+    font-size: 90px;
+    color: white;
+  }
+  p {
+    color: white;
+  }
+  button {
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    margin-top: 20px;
+  }
+  .item {
+    width: 225px;
+    height: 230px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 30px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+  }
+  .item1 {
+    background-image: url(./image/box3.jpeg);
+  }
+  .item2 {
+    background-image: url(./image/box5.jpeg);
+  }
+  .item3 {
+    background-image: url(./image/box6.jpeg);
+  }
+  .item4 {
+    background-image: url(./image/WhatsApp\ Image\ 2022-11-09\ at\ 19.30.24.jpeg);
+  }
+  .item:hover {
+    transform: translatey(-10px);
+  }
+ 
+  @media only screen and (max-width: 450px) {
+    body{
+      background-size: contain;
+    }
+    .container {
+      height: 100%;
+     background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top;
+    }
+    .play {
+      display: block;
+      position: relative;
+      top: unset;
+    }
+    h1 {
+      font-size: 63px;
+      position: relative;
+      top: 18px;
+    }
+    p{
+      position: relative;
+      top:20px;
+    }
+    .item {
+      width: 327px;
+      align-items: center;
+      margin-right: 20px;
+    }
+    nav  {
+      padding-top: 20px;
+    }
+   .a1{
+    left: 40px;
+    }
+    .img2{
+      left: 54px;
+      top: -25px;
+    }
+    .button{
+      margin-top: 25px;
+    }
+  }
+@media (min-width:451px) and (max-width:912px){
+
+  .container {
+    height: 100%;
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+  .play {
+    display: block;
+    position: relative;
+    top: unset;
+  }
+  h1 {
+    font-size: 63px;
+    position: relative;
+    top: 18px;
+  }
+  p{
+    position: relative;
+    top:20px;
+  }
+  .item {
+    width: 327px;
+    align-items: center;
+    margin-right: 20px;
+  }
+  nav  {
+    padding-top: 20px;
+  }
+ .a1{
+   left:317px;
+  }
+  .img2{
+    left: 354px;
+    top: 9px;
+  }
+  .button{
+    margin-top: 25px;
+  }
+  body{
+    background-size: contain;
+    height: 100%;
+  }
+  .box{
+    position: relative;
+    top: -16px;
+    padding: 21px;
+    margin: 1px;
+  }
+}
